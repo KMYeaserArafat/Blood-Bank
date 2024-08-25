@@ -6,13 +6,12 @@ import BloodInfoPage from "./pages/BloodInfoPage";
 import ContactPage from "./pages/ContactPage";
 import ErrorPage from "./pages/ErrorPage"; 
 import RegisterPage from "./pages/RegisterPage"; 
-import NavBar from "./compoments/NavBar"; 
+
 
 function App() {
   return (
     <div className="App">
        <BrowserRouter>
-        <NavBar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/bloodinfo" element={<BloodInfoPage/>}/>

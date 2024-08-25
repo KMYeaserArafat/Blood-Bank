@@ -1,6 +1,6 @@
 /* Navigation container */
 #nav-div {
-    background-color: rgb(18, 18, 17);
+    background-color: rgba(88, 88, 86, 0.173);
     padding: 15px 30px; 
     border-bottom: 2px solid red;
     display: flex;
