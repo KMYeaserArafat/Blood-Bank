@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "name": "Arafat", 
+        "Area": "Jhenaidah", 
+        "phone": "01878437942", 
+        "email": "kmyeaserarafat1971@gmail.com"
+    }, 
+    {
+        "id":2,
+        "name": "Abir", 
+        "Area": "Shylet", 
+        "phone": "0170000000", 
+        "email": "abir@gmail.com"
+    }, 
+    {
+        "id":3,
+        "name": "Shoroni", 
+        "Area": "Rajshahi", 
+        "phone": "0190000000", 
+        "email": "shoroni@gmail.com"
+    }, 
+    {
+        "id":4,
+        "name": "Ashok", 
+        "Area": "Chottogram", 
+        "phone": "0188448454545", 
+        "email": "ashok@gmail.com"
+    }, 
+    {
+        "id":5,
+        "name": "Yamin", 
+        "Area": "Dhaka", 
+        "phone": "01854545487", 
+        "email": "Yamin111@gmail.com"
+    }
+]

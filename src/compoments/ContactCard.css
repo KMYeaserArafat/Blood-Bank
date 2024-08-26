@@ -1,0 +1,49 @@
+
+
+#card-body{
+    background: rgb(3,0,43);
+    background: -moz-linear-gradient(107deg, rgba(3,0,43,1) 0%, rgba(4,62,53,1) 100%, rgba(114,22,22,1) 100%);
+    background: -webkit-linear-gradient(107deg, rgba(3,0,43,1) 0%, rgba(4,62,53,1) 100%, rgba(114,22,22,1) 100%);
+    background: linear-gradient(107deg, rgba(3,0,43,1) 0%, rgba(4,62,53,1) 100%, rgba(114,22,22,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#03002b",endColorstr="#721616",GradientType=1);
+    display: inline-block;
+    margin: 20px;
+    color: white; 
+}
+
+
+#card-area{
+    background-color: rgba(106, 106, 106, 0.701);
+    font-size: 25px;
+    color: rgb(5, 26, 23); 
+    padding: 10px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold;
+}
+
+#card-person-name{
+    color: yellow; 
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#card-phone{
+    font-size: 16px;
+    text-align: center;
+    padding: 8px;
+}
+
+#card-email{
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: rgba(121, 73, 68, 0.575);
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color:aqua; 
+}
