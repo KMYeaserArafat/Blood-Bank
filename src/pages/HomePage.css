@@ -1,5 +1,4 @@
 
-
 #home-Page-div {
     background-color: rgb(23, 23, 32);
     padding: 20px;
@@ -13,10 +12,11 @@
 }
 
 #heading-title{
-    padding-top:100px;
+    /* padding-top:100px; */
     font-size: 80px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: 5px 5px 60px rgb(151, 150, 150);
+    color: whitesmoke; 
 }
 
 #search-Btn{

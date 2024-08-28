@@ -12,7 +12,7 @@ const ContactPage = () => {
 
   const onSearchHandler = (searchTerm) => {
     const trimmedTerm = searchTerm.trim().toLowerCase();
-    if (trimmedTerm === '') {
+    if (trimmedTerm ==='') {
       setContactData(ContactInfoData);
     } else {
       const filteredData = ContactInfoData.filter(contact => 
@@ -30,7 +30,7 @@ const ContactPage = () => {
           <img src={contact_logo} alt='contact-logo' id='contact-logo'></img>
           <h1 id='title'>Contact Information </h1>
       </div>
-      <Search onSearchHandler={onSearchHandler}/>
+      <Search onSearchHandler={onSearchHandler} searchTitle={"Search Area "}/>
       <br></br>
       {contactData.map((cData)=> { 
         return ( <ContactCard name={cData.name} Area={cData.Area} phone={cData.phone} email={cData.email} />)

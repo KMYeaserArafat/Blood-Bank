@@ -1,7 +1,7 @@
 import React from 'react'
 import '../compoments/Search.css'; 
 
-const Search = ({onSearchHandler}) => {
+const Search = ({onSearchHandler, searchTitle}) => {
 
   const SearchHandler=(e)=>{
       onSearchHandler(e.target.value);
@@ -9,7 +9,7 @@ const Search = ({onSearchHandler}) => {
 
   return (
     <div>
-      <input type='input' id='searchBar' onChange={SearchHandler} placeholder='Search Area 🔍'  />
+      <input type='input' id='searchBar' onChange={SearchHandler} placeholder={searchTitle}  />
     </div>
   )
 }

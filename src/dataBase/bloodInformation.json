@@ -1,0 +1,30 @@
+
+
+{
+    "Blood_Information":[
+        {   
+            "Name": "MR.A", 
+            "bloodGroup": "AB-",
+            "Address": "Jhenaidah",
+            "Mobile":"01878437942"
+           }, 
+           {
+               "Name": "MR.B", 
+               "bloodGroup": "AB+",
+               "Address": "Dhaka",
+               "Mobile":"0100000000"
+           },
+           {
+               "Name": "MR.C", 
+               "bloodGroup": "O-",
+               "Address": "Chottogram",
+               "Mobile":"01574000000"
+              },
+              {
+               "Name": "MR.D", 
+               "bloodGroup": "B+",
+               "Address": "Shylet",
+               "Mobile":"018"
+              }
+    ]
+}

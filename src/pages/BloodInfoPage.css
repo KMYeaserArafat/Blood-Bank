@@ -1,0 +1,13 @@
+
+
+#blood-info-page-body{
+    padding: 20px;
+    background-image: linear-gradient(to top, #4f0921, #4d150e, #432100, #352b00, #243206);
+    min-height: 100vh;
+    color: white; 
+}
+
+#Loading_Message, #Error_Message{
+    color: salmon; 
+    text-align: center;
+}
