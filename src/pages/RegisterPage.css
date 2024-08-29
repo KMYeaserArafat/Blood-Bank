@@ -1,0 +1,272 @@
+
+#register-page-body{
+    padding: 20px;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    min-height: 100vh;
+}
+#login-form {
+    background-color: #ffffffaa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    max-width: 100%;
+    padding: 30px;
+    margin-left: 25%;
+    margin-top: 40px;
+  }
+  
+  /* Form Title */
+  #login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Label Styles */
+  label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  /* Input Field Styles */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  /* Show Password Div */
+  #show-password-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 70%;
+  }
+  
+  /* Show Password Checkbox */
+  #show-password {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Registration Link Container */
+  #registration-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Registration Link Text */
+  #new-register-link {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Register Link */
+  #visible-register {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Register Link Hover Effect */
+  #visible-register:hover {
+    color: #0056b3;
+  }
+  
+  /* Login Button */
+  #btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Login Button Hover Effect */
+  #btn-login:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    #login-form {
+      width: 90%;
+      padding: 15px 20px;
+    }
+  
+    #login-title {
+      font-size: 20px;
+    }
+  
+    input[type="text"],
+    input[type="password"] {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    #btn-login {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    label,
+    #visible-register,
+    #new-register-link {
+      font-size: 12px;
+    }
+  }
+
+
+/* Form Styles */
+
+
+/* Registration  */
+/* General Styles */
+
+  /* Form Container */
+  #registration-form {
+    background-color: #ffffffaa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    max-width: 100%;
+    padding: 30px;
+    margin-left: 25%;
+    margin-top: 40px;
+  }
+  
+  /* Form Title */
+  #registration-form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  /* Input Fields */
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+  #label-password{
+    color: #666;
+  }
+  
+  /* Register Button */
+  #btn-register {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #btn-register:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    #registration-form {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    label {
+      font-size: 12px;
+    }
+  
+    input[type="text"],
+    input[type="password"] {
+      font-size: 12px;
+    }
+  
+    #btn-register {
+      font-size: 14px;
+    }
+  }
+
+
+/*  */
+  
+/* Container Div */
+#login-visible-div {
+    text-align: center; /* Center the content */
+    margin-top: 20px; /* Space above the div */
+  }
+  
+  /* Label */
+  #login-link {
+    font-size: 14px;
+    color: #666;
+    margin-right: 5px;
+    display: inline-block; /* Ensure it sits next to the link */
+  }
+  
+  /* Link */
+  #login-visible {
+    font-size: 14px;
+    color: #007bff; /* A standard blue color for links */
+    text-decoration: none; /* Remove underline from link */
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  /* Link Hover Effect */
+  #login-visible:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover for emphasis */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    #login-link,
+    #login-visible {
+      font-size: 12px; /* Slightly smaller text on smaller screens */
+    }
+  }
+  
