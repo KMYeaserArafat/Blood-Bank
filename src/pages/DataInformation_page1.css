@@ -1,0 +1,7 @@
+
+#data-formation-page-body{
+    padding: 20px;
+    background: linear-gradient(107deg, rgba(3,0,43,1) 0%, rgba(4,62,53,1) 100%, rgba(114,22,22,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#03002b",endColorstr="#721616",GradientType=1);
+    min-height: 100vh;
+}

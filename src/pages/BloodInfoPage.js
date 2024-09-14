@@ -10,9 +10,7 @@ import pic from "../resources/user.png";
 // Pictures, 
 import picture1 from '../resources/slidePicture1.png'; 
 import picture2 from '../resources/slidePicture2.png'; 
-import picture3 from '../resources/slidePicture3.png'; 
-
-
+import picture3 from '../resources/slidePicture3.png';  
 
 const BloodInfoPage = () => {
   const [bloodInfo,setBloodInfo] = useState([]);
@@ -20,6 +18,7 @@ const BloodInfoPage = () => {
   const [error, setError] = useState(null); 
 
   const url = "http://localhost:3001/Blood_Information"; 
+
   
   const FeatchData = async(url)=>{
      setLoading(true); 
