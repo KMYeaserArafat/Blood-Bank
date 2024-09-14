@@ -18,13 +18,21 @@
       "id": "vh73w",
       "name": "Arafat",
       "Email": "kmyeaserarafat1971@gmail.com",
+      "Password": "12345678",
       "Mobile": "01878437942"
     },
     {
-      "id": "pvh7u",
-      "name": "anisha",
-      "Email": "asj@gmail.com",
-      "Mobile": "01234567891"
+      "id": "uf0e4",
+      "name": "Shoroni",
+      "Email": "shoroni@gmail.com",
+      "Mobile": "01975642713"
+    },
+    {
+      "id": "itjy8",
+      "name": "Abir",
+      "Email": "abir@gmail.com",
+      "Mobile": "01875459464",
+      "Password": "abir1235"
     }
   ]
 }

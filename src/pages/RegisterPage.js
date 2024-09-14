@@ -98,11 +98,11 @@ const InsertData = async (url) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
+        id: generateUniqueId(), 
         name: name,
         Email: email,
         Mobile: mobile,
-        Password: password,
-        id: generateUniqueId(), 
+        Password: userPassword
       }),
     });
 
@@ -148,7 +148,8 @@ const InsertData = async (url) => {
         // Successfully Register, 
         InsertData(url); 
         window.location.href = "/register";
-
+        setVisibleRegistration(false); 
+        setVisibleLoginForm(true); 
       }
     } catch (err) {
       toast.error("An error occurred: " + err.message);
