@@ -7,7 +7,8 @@ import ContactPage from "./pages/ContactPage";
 import ErrorPage from "./pages/ErrorPage"; 
 import RegisterPage from "./pages/RegisterPage"; 
 import DataInformation_page1 from "./pages/DataInformation_page1";
-
+import InsertBloodInformation from "./pages/InsertBloodInformation";
+import InsertUserInformation from "./pages/InsertUserInformation";
 
 
 function App() {
@@ -18,8 +19,11 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/bloodinfo" element={<BloodInfoPage/>}/>
           <Route path="/contactPage" element={<ContactPage/>}/>
-          <Route path="/register" element={<RegisterPage/>} />
+          <Route path="/login" element={<RegisterPage/>} />
           <Route path="/registration1" element={<DataInformation_page1/>} />
+          <Route path="/InserBloodInformation" element={<InsertBloodInformation/>}/>
+          <Route path="/InsertUserInformation" element={<InsertUserInformation/>} />
+
           <Route path="*" element={<ErrorPage/>} />
         </Routes>
        </BrowserRouter>

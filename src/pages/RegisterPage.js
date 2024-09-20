@@ -4,6 +4,7 @@ import '../pages/RegisterPage.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const url = "http://localhost:3002/Users"; 
 
 const RegisterPage = () => {
@@ -65,7 +66,7 @@ const RegisterPage = () => {
         toast.success("Successfully Login")
         userFound = true;
         setTimeout(() => {
-          window.location.href = "/registration1";// Navigate to another page
+         window.location.href = "/registration1";// Navigate to another page
         }, 2000);
         break; 
       }

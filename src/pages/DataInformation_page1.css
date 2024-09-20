@@ -5,3 +5,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#03002b",endColorstr="#721616",GradientType=1);
     min-height: 100vh;
 }
+
+#Card-1, #Card-2{
+    display: inline-block;
+}
