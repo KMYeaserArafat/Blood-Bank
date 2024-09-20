@@ -1,0 +1,28 @@
+
+
+#profile-title{
+    color: rgb(33, 202, 95);
+    margin-right: 20px;
+    font-size: 18px; /* Adjusted font size for better balance */
+    text-decoration: none;
+    transition: color 0.3s ease; 
+    margin-top: 8px;
+}
+
+#profile-Data{
+    background-color: rgba(255, 255, 255, 0.277);
+    padding: 10px;
+    font-size: 10px;
+    display:inline-table;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+}
+
+#profile-Email, #profile-Mobile{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: yellowgreen;
+}

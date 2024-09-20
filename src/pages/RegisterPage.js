@@ -3,10 +3,10 @@ import NavBar from '../compoments/NavBar';
 import '../pages/RegisterPage.css'; 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom';
 
 
 const url = "http://localhost:3002/Users"; 
-
 const RegisterPage = () => {
   const [user,setUser] = useState([]);
   const [userID, setUserID] = useState(); 
@@ -14,6 +14,8 @@ const RegisterPage = () => {
   const [showPassword, setShowPassword] = useState(false); 
   const [isVisibleLoginForm, setVisibleLoginForm] = useState(true); 
   const [isVisibleRegistration, setVisibleRegistration] = useState(false); 
+
+  const navigate = useNavigate(); 
 
  
 
@@ -66,7 +68,8 @@ const RegisterPage = () => {
         toast.success("Successfully Login")
         userFound = true;
         setTimeout(() => {
-         window.location.href = "/registration1";// Navigate to another page
+        //  window.location.href = "/registration1";// Navigate to another page
+          navigate('/registration1', { state: { profileName: user[i].name, profileEmail:user[i].Email,profileMobile:user[i].Mobile} });
         }, 2000);
         break; 
       }
