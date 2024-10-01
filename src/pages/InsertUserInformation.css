@@ -1,0 +1,93 @@
+#Insert-User-Info-Body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e8eaf6;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+  }
+  
+  #Insert-User-Info-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #3f51b5;
+    font-weight: 600;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  input[type='text'],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    color: #333;
+    transition: all 0.3s;
+  }
+  
+  input[type='text']:focus,
+  textarea:focus {
+    border-color: #3f51b5;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 10px;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #303f9f;
+  }
+  
+  #btn-Reset {
+    background-color: #757575;
+  }
+  
+  #btn-Reset:hover {
+    background-color: #616161;
+  }
+  
+  #btn-Contact {
+    background-color: #43a047;
+  }
+  
+  #btn-Contact:hover {
+    background-color: #388e3c;
+  }
+  
