@@ -21,7 +21,7 @@ function App() {
           <Route path="/contactPage" element={<ContactPage/>}/>
           <Route path="/login" element={<RegisterPage/>} />
           <Route path="/registration1" element={<DataInformation_page1/>} />
-          <Route path="/InserBloodInformation" element={<InsertBloodInformation/>}/>
+          <Route path="/InsertBloodInformation" element={<InsertBloodInformation/>}/>
           <Route path="/InsertUserInformation" element={<InsertUserInformation/>} />
 
           <Route path="*" element={<ErrorPage/>} />

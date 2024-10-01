@@ -1,0 +1,117 @@
+
+#InsertBodyInformation-body{
+    background: rgb(13,5,47);
+    background: -moz-linear-gradient(11deg, rgba(13,5,47,1) 0%, rgba(104,0,23,1) 100%);
+    background: -webkit-linear-gradient(11deg, rgba(13,5,47,1) 0%, rgba(104,0,23,1) 100%);
+    background: linear-gradient(11deg, rgba(13,5,47,1) 0%, rgba(104,0,23,1) 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* InsertBloodInformation.css */
+
+#InsertBodyInformation-body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #Insert-form-body {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #Insert-Blood-Info-Title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin: 15px 0 5px;
+    text-align: left;
+    color: #555;
+  }
+  
+  .Input-Field,
+  #blood-Group,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .Input-Field:focus,
+  #blood-Group:focus,
+  textarea:focus {
+    border-color: #008cba;
+    outline: none;
+  }
+  
+  button {
+    background-color: #008cba;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005f73;
+  }
+  
+  #btn-Reset {
+    background-color: #f44336;
+  }
+  
+  #btn-Reset:hover {
+    background-color: #c62828;
+  }
+  
+  #btn-Blood-Information {
+    background-color: #4caf50;
+  }
+  
+  #btn-Blood-Information:hover {
+    background-color: #388e3c;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  select {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    #Insert-form-body {
+      padding: 15px;
+    }
+  
+    button {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  

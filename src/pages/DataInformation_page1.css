@@ -9,3 +9,27 @@
 #Card-1, #Card-2{
     display: inline-block;
 }
+
+#login-failed-message{
+    text-align: center;
+    color: snow;
+    font-size: 30px;
+}
+
+#login-error-pic{
+    margin-left: 45%;
+}
+
+#btn-login{
+   width: 300px;
+   margin-top: 20px;
+   margin-left: 40%;
+}
+
+#btn-Registration{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 40%;
+    background-color: rgb(83, 62, 62);
+    border: 2px solid rgb(83, 62, 62);
+}
